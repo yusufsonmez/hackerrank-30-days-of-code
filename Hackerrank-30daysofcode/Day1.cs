@@ -10,7 +10,7 @@ namespace Hackerrank_30daysofcode
     {
 
         
-    public void Solution()
+    public void SolutionDay1()
     {
         
 
