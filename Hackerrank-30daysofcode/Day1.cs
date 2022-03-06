@@ -1,31 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Hackerrank_30daysofcode
 {
     class Day1
     {
 
-        
-    public void SolutionDay1()
-    {
-        
+       public void SolutionDay1() { 
+            int i = 4;
+            double d = 4.0;
+            string s = "HackerRank ";
 
-            // Declare a variable named 'inputString' to hold our input.
-            String inputString;
 
-            // Read a full line of input from stdin (cin) and save it to our variable, input_string.
-            inputString = Console.ReadLine();
+            // Declare second integer, double, and String variables.
+            int secondInteger = Convert.ToInt32(Console.ReadLine());
+            double secondDouble = Convert.ToDouble(Console.ReadLine());
+            string secondString = Console.ReadLine();
 
-            // Print a string literal saying "Hello, World." to stdout using cout.
-            Console.WriteLine("Hello, World.");
-            Console.WriteLine(inputString);
+
+            // Read and save an integer, double, and String to your variables.
+            i = i + secondInteger;
+            d = d + secondDouble;
+            s = s + secondString;
+
+            // Print the sum of both integer variables on a new line.
+            Console.WriteLine(i);
+
+            // Print the sum of the double variables on a new line.
+            Console.WriteLine(d.ToString("F1"));
+
+
+            // Concatenate and print the String variables on a new line
+            Console.WriteLine(s);
             Console.ReadLine();
-            // TODO: Write a line of code here that prints the contents of input_string to stdout.
-    }
-
+            // The 's' variable above should be printed first.
+        }
     }
 }
