@@ -10,8 +10,8 @@ namespace Hackerrank_30daysofcode
     {
         static void Main(string[] args)
         {
-            Day6 day6 = new Day6();
-            day6.SolutionDay6(2);
+            Day7 day7 = new Day7();
+            day7.SolutionDay7();
         }
     }
 }
