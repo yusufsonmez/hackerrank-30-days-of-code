@@ -10,9 +10,12 @@ namespace Hackerrank_30daysofcode
     {
         static void Main(string[] args)
         {
-            Day9 day9 = new Day9();
-            Console.WriteLine(day9.SolutionDay9(5));
-            Console.ReadLine();
+            Day10 day10 = new Day10();
+            day10.SolutionDay10(5);
+
+            //Day9 day9 = new Day9();
+            //Console.WriteLine(day9.SolutionDay9(5));
+            //Console.ReadLine();
         }
     }
 }
