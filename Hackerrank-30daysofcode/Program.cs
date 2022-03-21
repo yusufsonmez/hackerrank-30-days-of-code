@@ -10,11 +10,16 @@ namespace Hackerrank_30daysofcode
     {
         static void Main(string[] args)
         {
-    
-            Student day12 = new Student("Feyyaz", "Yigit", 2452, new int[] { 100,80});
-            day12.printPerson();
-            Console.WriteLine("Grade: " + day12.Calculate());
-            Console.ReadLine();
+
+            Day13 new_novel = new MyBook("Sami", "Alioğlu", 10000);
+            new_novel.display();
+
+
+
+            //Student day12 = new Student("Feyyaz", "Yigit", 2452, new int[] { 100,80});
+            //day12.printPerson();
+            //Console.WriteLine("Grade: " + day12.Calculate());
+            //Console.ReadLine();
 
 
 
