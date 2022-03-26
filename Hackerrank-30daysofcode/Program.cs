@@ -10,9 +10,13 @@ namespace Hackerrank_30daysofcode
     {
         static void Main(string[] args)
         {
+            int[] arr = { 2, 5, 9, 10 }; 
+            Day14 day14 = new Day14(arr);
+            day14.computeDifference();
 
-            Day13 new_novel = new MyBook("Sami", "Alioğlu", 10000);
-            new_novel.display();
+
+            //Day13 new_novel = new MyBook("Sami", "Alioğlu", 10000);
+            //new_novel.display();
 
 
 
