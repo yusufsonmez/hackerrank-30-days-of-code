@@ -19,12 +19,18 @@ namespace Hackerrank_30daysofcode
                     var min = int.MaxValue;
                     var max = int.MinValue;
 
-                    for (var i = 0; i < elements.Length; i++)
+                for (int i = 0; i < elements.Length; i++)
+                {
+                    if (elements[i] > max)
                     {
-                        min = Math.Min(min, elements[i]);
-                        max = Math.Max(max, elements[i]);
+                        max = elements[i];
                     }
-                    maximumDifference = max - min;
+                    if (elements[i] < min)
+                    {
+                        min = elements[i];
+                    }
+                }
+                   maximumDifference = max - min;
                    Console.WriteLine(maximumDifference);
                    Console.ReadLine();
                 }

@@ -10,7 +10,8 @@ namespace Hackerrank_30daysofcode
     {
         static void Main(string[] args)
         {
-            int[] arr = { 2, 5, 9, 10 }; 
+
+            int[] arr = { 2, 5, 9, 11 };
             Day14 day14 = new Day14(arr);
             day14.computeDifference();
 
